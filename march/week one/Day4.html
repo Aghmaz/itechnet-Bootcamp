@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootcamp</title>
+</head>
+
+<body>
+    <!-- let connect day 2 ,day 3 and day 4 together  -->
+    <ol>
+        <li> <a href="http://127.0.0.1:5500/march/week%20one/Day2.html"> Day Two page </a> </li>
+        <li> <a href="http://127.0.0.1:5500/march/week%20one/Day3.html"> Day three page </a> </li>
+        <li> <a href="http://127.0.0.1:5500/march/week%20one/Day4.html"> Day Four Page </a> </li>
+        <li>Day Five Page </li>
+        <li>Day Six Page</li>
+    </ol>
+    <!-- a tag called attribute and href means we are going connect your current
+        page to another page for example for now we are connecting our Day4.html file to
+    facebook and if we write target attribute ,it will open the link in new tab-->
+    <br>
+
+    <a href="https://www.facebook.com" target="_blank">This is facebook link</a>
+    <br>
+    <br>
+    <!-- image tag ,src means source and alt means alternate text and when the image 
+        is not loaded due to some issue , alt text will display instead of image  ,
+    src ,alt ,height and width are the attributes-->
+    <img src="class.JPG" alt="delete" height="240px" width="400px"><br>
+    <h1>can we make picture into link ?</h1>
+    <h3>click on the below image</h3>
+    <!-- can we make picture into link ?
+        Yes, we can ,here is example -->
+    <a href="https://www.google.com" target="_blank">
+        <img src="class2.jpg" alt="delete" height="300px" width="300px"><br>
+    </a>
+    <!-- end -->
+    <!-- form tag -->
+    <form>
+        <h1>Form tags</h1>
+        <!-- if we want to create date input tag -->
+        <h2>Date input tag</h2>
+        <input type="date">
+        <!-- if we want to create number input tag and value attribute is used
+        to use default value and that value can be editable-->
+        <h2>Number input tag</h2>
+        <input type="number" value="0"><br>
+        <!-- if we want to create text input tag -->
+        <h2>Text input tag</h2>
+        <input type="text" value="Paragraph"><br>
+        <h2>Radio input tag</h2>
+        <label>Choose your Gender</label><br>
+        <!-- id is always unique, name is used for accessing the input and value 
+        specifies its value male or female and if your removed name tag , you can 
+    choose both radio button  -->
+        <input type="radio" id="male" name="fav_language" value="male">
+        <label>male</label><br>
+        <input type="radio" id="female" name="fav_language" value="female">
+        <label>female</label><br>
+        <!-- check box input tag -->
+        <h2>check box input tag</h2>
+        <input type="checkbox">
+        <label>remember me</label><br>
+        <br>
+        <!-- This is email input tag, it will used for email input field  -->
+        <h2>
+            This is email input tag, it will used for email input field
+        </h2>
+        <input type="email" placeholder="abc@gmail.com"><br>
+        <br>
+        <!--  -->
+        <h2>Color input tag</h2>
+        <input type="color" name="" id="">
+        <br>
+        <br>
+        <!--  -->
+        <h2>if you want to upload a file from your pc you can use file input tag</h2>
+        <input type="file" name="" id="">
+        <br>
+        <br>
+        <!-- password tag -->
+        <h2>Password tag ,when you're typing your password ,it will not display ,it will show * sign</h2>
+        <input type="password" name="" id="">
+        <!-- Search input tag for example google search box-->
+        <h2>Search input tag</h2>
+        <input type="search" name="" id="" placeholder="search here">
+        <br>
+        <br>
+        <!-- Range input tag -->
+        <h2>Range input tag for example price range</h2>
+        <input type="range" name="" id="">
+        <br>
+        <br>
+        <input type="submit" value="submit">
+
+    </form>
+
+</body>
+
+</html>
