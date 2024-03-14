@@ -1,0 +1,48 @@
+.main-section{
+    border: 2px solid black;
+    width: 500px;
+    margin: auto;
+    height: 600px;
+    
+}
+.section{
+    /* border: 2px solid black; */
+    width: 500px;
+    height: 200px;
+    display: flex;
+}
+
+.position{
+display: flex;
+gap: 12px;
+list-style-type: none;
+/* border: 2px solid red; */
+}
+.box-left{
+    margin-top: 10px;
+    margin-left: 8px;
+    border: 2px solid green;
+    width: 155px;
+    height: 160px;
+}
+.box-mid{
+    margin-top: 10px;
+    margin-left: 3px;
+    border: 2px solid green;
+    width: 155px;
+    height: 160px;
+}
+.box-right{
+    margin-top: 10px;
+    margin-left: 3px;
+    border: 2px solid green;
+    width: 155px;
+    height: 160px;
+}
+.alpha{
+    margin-top:-45px;
+}
+
+h1{
+    font-size: 100px;
+}
