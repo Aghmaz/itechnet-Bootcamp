@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inline vs internal vs external css</title>
+    <link rel="stylesheet" href="externalCss.css">
+
+    <style>
+        body {
+            background-color: bisque;
+        }
+
+        .generic {
+            border: 8px solid red;
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="generic">
+        <h1>hello same class</h1>
+    </div>
+    <div class="generic">
+        <h1>hello same class</h1>
+    </div>
+    <div class="generic" style="background-color: aquamarine;">
+        <h1>hello same class</h1>
+    </div>
+
+</body>
+
+</html>

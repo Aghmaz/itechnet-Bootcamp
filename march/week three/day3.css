@@ -1,0 +1,25 @@
+.container {
+    border: 2px solid black;
+    height: 500px;
+    width: 400px;
+    border-radius: 8px;
+
+}
+
+.text {
+    border-radius: 6px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.text {
+    margin-right: 10px;
+    border-radius: 6px;
+    margin-top: 50px;
+    margin-left: 10px;
+    border: red solid;
+}
+
+.position {
+    margin-top: 100px;
+}

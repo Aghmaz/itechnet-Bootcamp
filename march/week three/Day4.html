@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position complete</title>
+
+    <style>
+        body {
+            /* padding: 0; */
+            margin: 0;
+        }
+
+        .nav {
+            border: 1px solid black;
+            position: fixed;
+            width: 100%;
+            background-color: yellow;
+            z-index: 1;
+            /* margin: auto; */
+            /* display: none; */
+        }
+
+        .nav_ul {
+            display: flex;
+            gap: 50px;
+            list-style-type: none;
+        }
+
+        .active_list {
+            color: blue
+        }
+
+        .head {
+            /* border: 12px solid red; */
+            padding-top: 4rem;
+            position: relative;
+        }
+
+        .text-section {
+            /* border: 2px solid black; */
+            margin-top: -4rem;
+            position: absolute;
+            width: 50%;
+            margin-top: -65rem;
+            right: 0;
+            /* NOT USING */
+            /* float: right; */
+        }
+
+        .text-class {
+            font-size: 3rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- nav start -->
+        <div class="nav">
+            <ul class="nav_ul">
+                <li class="active_list">Home</li>
+                <li>Contact</li>
+                <li>property</li>
+                <li>about</li>
+            </ul>
+        </div>
+        <!-- nav end -->
+        <!-- head start -->
+        <div class="head">
+            <img src="../week two/doc.png" alt="">
+        </div>
+        <!-- head end  -->
+        <!-- now we want text should be overlap on the doctor image  -->
+        <div class="text-section">
+            <p class="text-class">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, beatae placeat ut
+                ex magni vero vel
+                ducimus veritatis? Exercitationem veritatis harum fugit, obcaecati consequatur facere vel magnam nobis
+                incidunt, rerum, dolorem asperiores aut?</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
